@@ -1,12 +1,15 @@
 import React from 'react';
-import Navigator from './src/navigation/Navigator';
-import { ThemeProvider } from '/src/context/ThemeContext.js';
+import Navigator from './navigation/Navigator';
+import { ThemeProvider } from './context/ThemeContext.js';
+import LoadFonts from './styles/LoadFonts';
 
 const Wrappers = () => {
   return (
-    <ThemeProvider>
-      <Navigator />
-    </ThemeProvider>
+    <LoadFonts>
+      <ThemeProvider>
+        <Navigator />
+      </ThemeProvider>
+    </LoadFonts>
   )
 }
 export default Wrappers;

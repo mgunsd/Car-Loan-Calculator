@@ -3,7 +3,6 @@ export const coSheme17117 = {
   pri: '#08d9d6',
   prid: '#058d8b',
   pril: '#96fbfa',
-
   //pink
   sec: '#ff2e63',
   secd: '#a4002a',

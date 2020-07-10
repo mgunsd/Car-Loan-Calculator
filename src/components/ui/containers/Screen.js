@@ -1,5 +1,5 @@
-import React from 'react'
-import { StyleSheet, View, useWindowDimensions } from 'react-native';
+import React from 'react';
+import { StyleSheet, View } from 'react-native';
 import { useTheme } from 'src/context/ThemeContext';
 
 export const Screen = props => {
@@ -22,11 +22,4 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   }
-})
-
-// const { width, height } = useWindowDimensions();
-
-// useWindowDimensions().fontScale;
-// useWindowDimensions().scale;
-// useWindowDimensions().height;
-// useWindowDimensions().width;
+});

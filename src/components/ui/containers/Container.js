@@ -1,5 +1,5 @@
-import React from 'react'
-import { StyleSheet, View, useWindowDimensions } from 'react-native';
+import React from 'react';
+import { StyleSheet, View } from 'react-native';
 import { useTheme } from 'src/context/ThemeContext';
 
 export const Container = props => {
@@ -23,7 +23,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     marginTop: 40,
-    marginBottom: 20,
+    marginBottom: 10,
     borderRadius: 40,
   },
 })
+
