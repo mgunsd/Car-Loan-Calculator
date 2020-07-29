@@ -1,19 +1,21 @@
-import React from 'react'
+import React from 'react';
 import { StyleSheet, Text } from 'react-native';
 import { useTheme } from 'src/context/ThemeContext';
 
-export const Link = props => {
+export const LinkText = props => {
   const { colors } = useTheme();
   //const navigation = useNavigation();
-  return (<Text
-    onPress={props.onPress}
-    {...props}
-    style={{
-      ...styles.link,
-      color: colors.text,
-      ...props.style,
-    }}>
-    {props.children}</Text>)
+  return (
+    <Text
+      onPress={props.onPress}
+      {...props}
+      style={{
+        ...styles.link,
+        color: colors.primary + 'BB',
+        ...props.style,
+      }}>
+      {props.children}</Text>
+  )
 };
 
 const styles = StyleSheet.create({
@@ -23,4 +25,4 @@ const styles = StyleSheet.create({
     lineHeight: 22,
     letterSpacing: 0.60,
   }
-})
+});

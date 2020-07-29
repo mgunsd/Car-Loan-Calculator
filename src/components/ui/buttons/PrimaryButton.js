@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { Text, StyleSheet, TouchableOpacity } from 'react-native';
 import { useTheme } from 'src/context/ThemeContext';
 
@@ -13,7 +13,7 @@ export const PrimaryButton = ({
       style={{
         ...styles.customButton,
         backgroundColor: colors.primary,
-        borderColor: colors.primary,
+        borderColor: colors.pril,
         ...style
       }}
       onPress={onPress}
@@ -34,18 +34,16 @@ const styles = StyleSheet.create({
     width: 300,
     borderRadius: 25,
     borderStyle: 'solid',
-    borderWidth: 2,
+    borderWidth: 0.5,
     alignSelf: 'center',
+    justifyContent: 'center',
     margin: 5,
   },
   buttonText: {
     fontFamily: 'SFProDisplay-Medium',
     fontSize: 17,
     letterSpacing: 0.6,
-    flex: 1,
+    lineHeight: 22,
     textAlign: 'center',
-    lineHeight: 40
   }
-})
-
-
+});

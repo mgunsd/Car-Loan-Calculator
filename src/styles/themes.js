@@ -10,12 +10,17 @@ export const themes = {
       card: c.light2,
       primary: c.sec,
       secondary: c.pri,
+      pril: c.secl,
+      prid: c.secd,
+
       top: c.light1,
       headerBackground: c.light4,
       buttonText: c.light,
       button: c.dark,
       placeholder: c.light5,
       altButton: c.light2,
+      light: c.light1,
+      dark: c.light5,
     }
   },
   dark: {
@@ -27,12 +32,17 @@ export const themes = {
       card: c.dark2,
       primary: c.pri,
       secondary: c.sec,
+      pril: c.pril,
+      prid: c.prid,
+
       top: c.dark1,
       headerBackground: c.dark4,
       buttonText: c.dark,
       button: c.light,
       placeholder: c.dark1,
       altButton: c.dark2,
+      light: c.dark1,
+      dark: c.dark5,
     }
   },
 };

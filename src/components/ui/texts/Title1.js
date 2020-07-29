@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { StyleSheet, Text } from 'react-native';
 import { useTheme } from 'src/context/ThemeContext';
 
@@ -21,4 +21,4 @@ const styles = StyleSheet.create({
     lineHeight: 41,
     letterSpacing: 0.36,
   }
-})
+});

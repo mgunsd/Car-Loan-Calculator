@@ -5,8 +5,8 @@ import { AppLoading } from 'expo';
 export default LoadFonts = props => {
   let [fontsLoaded] = useFonts({
     'NewYorkMedium-Medium': require('../assets/fonts/NewYorkMedium-Medium.otf'),
-    'NewYorkMedium-Medium': require('../assets/fonts/NewYorkMedium-Regular.otf'),
-    'NewYorkMedium-Medium': require('../assets/fonts/NewYorkMedium-Semibold.otf'),
+    'NewYorkMedium-Regular': require('../assets/fonts/NewYorkMedium-Regular.otf'),
+    'NewYorkMedium-Semibold': require('../assets/fonts/NewYorkMedium-Semibold.otf'),
     'SFProDisplay-Light': require('../assets/fonts/SFProDisplay-Light.otf'),
     'SFProDisplay-Regular': require('../assets/fonts/SFProDisplay-Regular.otf'),
     'SFProDisplay-Medium': require('../assets/fonts/SFProDisplay-Medium.otf'),

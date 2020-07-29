@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { StyleSheet, View, useWindowDimensions } from 'react-native';
 import { useTheme } from 'src/context/ThemeContext';
 
@@ -33,23 +33,13 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
 
-
-
     shadowOffset: { width: 8, height: 8 },
     shadowOpacity: 1.0,
     shadowRadius: 8,
     elevation: 15,
     //boxShadow: 35 35 70 '#c7c7c7',  - 35 - 35 70 '#ffffff',
-
-
     marginTop: 40,
     marginBottom: 20,
     borderRadius: 40,
-
-
-
-
-
-
   }
 })

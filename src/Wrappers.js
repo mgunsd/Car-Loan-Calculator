@@ -1,13 +1,19 @@
 import React from 'react';
 import Navigator from './navigation/Navigator';
-import { ThemeProvider } from './context/ThemeContext.js';
 import LoadFonts from './styles/LoadFonts';
+import { ThemeProvider } from './context/ThemeContext.js';
+import { Provider as LoanProvider } from './context/LoanContext';
+import { Provider as AuthProvider } from './context/AuthContext';
 
 const Wrappers = () => {
   return (
     <LoadFonts>
       <ThemeProvider>
-        <Navigator />
+        <LoanProvider>
+          <AuthProvider>
+            <Navigator />
+          </AuthProvider>
+        </LoanProvider>
       </ThemeProvider>
     </LoadFonts>
   )

@@ -9,6 +9,7 @@ export const Container = props => {
       style={{
         ...styles.container,
         backgroundColor: colors.background,
+        borderColor: colors.light,
         ...props.style
       }}>
       {props.children}
@@ -25,6 +26,8 @@ const styles = StyleSheet.create({
     marginTop: 40,
     marginBottom: 10,
     borderRadius: 40,
+    borderColor: 'transparent',
+    borderWidth: 0.5,
+    overflow: 'hidden',
   },
-})
-
+});
