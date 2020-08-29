@@ -1,7 +1,8 @@
 import React from 'react';
 import { createDrawerNavigator } from '@react-navigation/drawer';
-import { useTheme } from 'src/context/ThemeContext';
-import { ProfileScreen, ThemesScreen, CreditsScreen, SettingsScreen } from '../screens';
+
+import { useTheme } from 'context';
+import { ProfileScreen, ThemesScreen, CreditsScreen, SettingsScreen } from 'screens';
 
 const Drawer = createDrawerNavigator();
 export default DrawerMenu = () => {

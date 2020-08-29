@@ -1,10 +1,13 @@
 import React, { useContext, useEffect } from 'react';
 import { StatusBar } from 'react-native';
 import { createStackNavigator } from '@react-navigation/stack';
-import { IntroScreen, AuthScreen } from 'src/screens';
+
+import { IntroScreen, AuthScreen } from 'screens';
 import BottomTabs from './BottomTabs';
-import { useTheme } from 'src/context/ThemeContext';
-import { Context as AuthContext } from 'src/context/AuthContext.js';
+import {
+  useTheme,
+  AuthContext
+} from 'context';
 
 const Stack = createStackNavigator();
 export default AuthStack = () => {

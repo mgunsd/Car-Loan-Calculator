@@ -1,18 +1,18 @@
 import React from 'react';
 import { StyleSheet, Image } from 'react-native';
-import { useTheme } from 'src/context/ThemeContext';
+import { useTheme } from 'context';
 
 import {
   Screen,
   PrimaryButton,
   Heading,
   Title1,
-} from 'src/components';
+} from 'components';
 
 export const IntroScreen = ({ navigation }) => {
   const { dark, colors } = useTheme();
-  const image = dark ? require('../assets/images/cardark.png') :
-    require('../assets/images/carlight.png');
+  const image = dark ? require('assets/images/cardark.png') :
+    require('assets/images/carlight.png');
   return (
     <Screen>
       <Image

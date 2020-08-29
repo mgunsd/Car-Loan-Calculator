@@ -1,7 +1,6 @@
 import React, { useContext } from 'react';
-import { Screen, PrimaryButton, Container, Title1, Spacer } from 'src/components';
-import { useTheme } from 'src/context/ThemeContext';
-import { Context as AuthContext } from 'src/context/AuthContext';
+import { Screen, PrimaryButton, Container, Title1, Spacer } from 'components';
+import { useTheme, AuthContext } from 'context';
 
 export const SettingsScreen = () => {
   const { colors, setTheme } = useTheme();

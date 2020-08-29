@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import buildContext from './buildContext';
-import { DEPOSIT_PERCENT } from 'src/components/loan';
-import { toFloat, toPounds } from 'src/utils/numberFormat';
+// import { DEPOSIT_PERCENT } from 'src/components/loan';
+// import { toFloat, toPounds } from 'src/utils/numberFormat';
 //import { toNumber } from './loanHelper';
 
 const loanReducer = (state, action) => {

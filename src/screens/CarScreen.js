@@ -1,7 +1,7 @@
 import React from 'react';
-import { Screen, Container, CustomHeader, Label, Spacer } from 'src/components';
-import useCarResults from 'src/hooks/useCarResults';
-import { ResultsList } from 'src/components/car';
+import { Screen, Container, CustomHeader, Label, Spacer } from 'components';
+import useCarResults from 'hooks/useCarResults';
+import { ResultsList } from 'car';
 
 export const CarScreen = () => {
   const [searchCars, results, errorMessage] = useCarResults();

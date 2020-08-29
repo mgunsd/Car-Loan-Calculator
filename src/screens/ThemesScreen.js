@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
-import { ThemeContext } from 'src/context/ThemeContext';
-import { Screen, Heading, Container, PrimaryButton, Title1, Spacer } from 'src/components';
+import { ThemeContext } from 'context';
+import { Screen, Heading, Container, PrimaryButton, Title1, Spacer } from 'components';
 
 export const ThemesScreen = () => {
   const { setTheme } = useContext(ThemeContext);
@@ -9,10 +9,10 @@ export const ThemesScreen = () => {
       <Container>
         <Title1>Themes Screen</Title1>
         <Spacer>
-          <PrimaryButton text='Dark Theme' onPress={() => setTheme('dark')} />
+          <PrimaryButton text='􀆺 Dark Theme' onPress={() => setTheme('dark')} />
         </Spacer>
         <Spacer>
-          <PrimaryButton text='Light Theme' onPress={() => setTheme('light')} />
+          <PrimaryButton text='􀆮 Light Theme' onPress={() => setTheme('light')} />
         </Spacer>
         <Title1 style={{ fontFamily: 'SFProDisplay-Bold', margin: 15 }}>Typogaphy</Title1>
         <Heading style={{ fontFamily: 'SFProDisplay-Light', }}>SFProDisplay Light</Heading>

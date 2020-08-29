@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import arnoldclark from 'src/api/arnoldclark';
+import arnoldclark from 'api/arnoldclark';
 
 export default () => {
   const [results, setResults] = useState([]);

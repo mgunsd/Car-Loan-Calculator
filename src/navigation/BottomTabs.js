@@ -1,9 +1,10 @@
 import React from 'react';
 import { createMaterialBottomTabNavigator } from '@react-navigation/material-bottom-tabs';
 import { MaterialCommunityIcons } from 'react-native-vector-icons';
-import { LoanScreen, ScheduleScreen, CarScreen } from 'src/screens';
+
+import { LoanScreen, ScheduleScreen, CarScreen } from 'screens';
 import DrawerMenu from './DrawerMenu';
-import { useTheme } from 'src/context/ThemeContext';
+import { useTheme } from 'context';
 
 const Tabs = createMaterialBottomTabNavigator();
 export default BottomTabs = () => {

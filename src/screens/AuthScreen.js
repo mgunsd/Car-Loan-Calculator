@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
-import { Context as AuthContext } from 'src/context/AuthContext.js';
-import { AuthForm, Heading, Container, Screen, KeyboardAvoiding } from 'src/components';
+import { AuthContext } from 'context';
+import { AuthForm, Container, Screen, KeyboardAvoiding } from 'components';
 
 export const AuthScreen = () => {
   const { state, remoteAuth, remoteOAuth } = useContext(AuthContext);
