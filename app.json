@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "clc-expo",
-    "slug": "clc-expo",
+    "name": "carloancalculator",
+    "slug": "carloancalculator",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "src/assets/icon.png",
@@ -13,12 +13,16 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "A Car Loan Calculator React Native App",
+    "githubUrl": "https://github.com/mgunsd/Car-Loan-Calculator"
   }
 }
