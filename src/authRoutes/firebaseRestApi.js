@@ -11,7 +11,7 @@ export const firebaseReq = async (type, email, password) => {
       method: 'POST',
       url: `accounts:${t}`,
       params: {
-        key: 'AIzaSyCewri3vA6oDSv17jjQM61sa7h9HlOafMg'
+        key: 'my secret key'
       },
       data: {
         email: email,
