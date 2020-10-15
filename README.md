@@ -4,7 +4,9 @@
 
 <a href="https://expo.io/@mgunsd/Car-Loan-Calculator">![NWS](https://github.com/mgunsd/Car-Loan-Calculator/raw/master/src/assets/images/CarLoanMainMock.png)</a>
 
-<details><summary> ## Log </summary>
+[Go to specs](./specs.md)
+
+<details><summary> <h3>Log</h3> </summary>
 
 `expo init clc-expo`
 
