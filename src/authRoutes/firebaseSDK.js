@@ -4,13 +4,13 @@ import "firebase/auth";
 import "firebase/firestore";
 
 export const firebaseConfig = {
-  apiKey: "AIzaSyCewri3vA6oDSv17jjQM61sa7h9HlOafMg",
+  apiKey: "my secret key",
   authDomain: "mgun-rn-auth.firebaseapp.com",
   databaseURL: "https://mgun-rn-auth.firebaseio.com",
   projectId: "mgun-rn-auth",
   storageBucket: "mgun-rn-auth.appspot.com",
-  messagingSenderId: "556870027643",
-  appId: "1:556870027643:web:bd10d45dc712e28adc55de"
+  messagingSenderId: "my secret key",
+  appId: "ididid "
 };
 firebase.initializeApp(firebaseConfig);
 export const auth = firebase.auth();
