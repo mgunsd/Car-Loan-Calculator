@@ -1,8 +1,10 @@
-## LogCarLoanCalculator
+## CarLoanCalculator
 
-- [CarLoanCalculator live at Expo](https://expo.io/@mgunsd/carloancalculator)
+- [Car Loan Calculator live at Expo](https://expo.io/@mgunsd/carloancalculator)
 
-## Log
+<a href="https://expo.io/@mgunsd/Car-Loan-Calculator">![NWS](https://github.com/mgunsd/Car-Loan-Calculator/raw/master/src/assets/images/CarLoanMainMock.png)</a>
+
+<details><summary> ## Log </summary>
 
 `expo init clc-expo`
 
@@ -21,3 +23,4 @@
 ### [React Native Modal Date Time Picker :](https://github.com/mmazzarolo/react-native-modal-datetime-picker)
 
 - `expo install @react-native-community/datetimepicker`
+</details>
